@@ -13,7 +13,7 @@ export const en: Content = {
     name: "Ilya Petrov",
     role: "I build production LLM agents for domain tasks",
     tagline:
-      "From a raw source (PDF up to 700 pages, JSON, ARXML, Excel) to a valid formal model and docs — via chains of LLM skills with structured output and validation at every step.",
+      "I take a raw source — PDF up to 700 pages, JSON, ARXML, Excel — and turn it into a valid formal model and docs. The work runs through chains of LLM skills: each step returns structured output and passes validation.",
     intro:
       "At my main job I designed and maintain a library of 20 LLM skills on Claude Code SDK / Anthropic API, deployed to the engineering team at KAMA (Atom EV).",
     ctaPrimary: "See projects →",
@@ -28,7 +28,7 @@ export const en: Content = {
   rolefit: {
     title: "Why my experience fits the role",
     lead:
-      "Not a resume rehash — a direct mapping: what an AI Engineer / Prompt Engineer needs vs. where I've already done it in production.",
+      "Not a resume rehash. On the left is what an AI Engineer / Prompt Engineer is usually asked for; on the right, where I've already done it in production.",
     items: [
       {
         need: "Designing LLM agents & prompts for applied tasks",
@@ -38,12 +38,12 @@ export const en: Content = {
       {
         need: "Guaranteed valid machine output",
         have:
-          "Structured output via Pydantic / JSON Schema to generate valid DSL code (SysML v2). Syntax and domain-rule validation at every step — nothing reaches the model without checks passing.",
+          "Structured output via Pydantic / JSON Schema to generate valid DSL code (SysML v2). Syntax and domain rules are checked at every step, and nothing reaches the model until the checks pass.",
       },
       {
         need: "Integrating LLMs with heterogeneous data sources",
         have:
-          "One skill interface over PDF (pdfplumber, up to 700 pp.), JSON (Devprom v2.1.V), Excel signal matrices, ARXML/AUTOSAR, DBC. Production ETL: parse → structure → LLM transform → validate → commit to Git.",
+          "One skill interface over PDF (pdfplumber, up to 700 pp.), JSON (Devprom v2.1.V), Excel signal matrices, ARXML/AUTOSAR, DBC. ETL for the agent: parsing, structuring, LLM transform, validation, and a commit to Git.",
       },
       {
         need: "RAG and context management",
@@ -58,7 +58,7 @@ export const en: Content = {
       {
         need: "Token & cost optimization",
         have:
-          "Chunking long inputs, caching intermediate JSON, dynamic model selection (Sonnet vs Opus) by task complexity — quality/cost balance.",
+          "Chunking long inputs, caching intermediate JSON, picking the model by task complexity (Sonnet or Opus). That keeps quality and cost in balance.",
       },
     ],
   },
@@ -131,7 +131,7 @@ export const en: Content = {
   },
   projects: {
     title: "Projects that prove it",
-    lead: "From a production agent to focused pet projects — each covers a concrete facet of the role.",
+    lead: "From a production agent to focused pet projects. Each one covers its own facet of the role.",
     items: [
       {
         name: "Architect AI agent · KAMA (Atom EV)",
@@ -142,8 +142,8 @@ export const en: Content = {
         bullets: [
           "20 narrow skills instead of one 'universal' one — easier to test and maintain; composed into chains (3–5 skills per scenario).",
           "Three-tier knowledge base (SysML v2 / ASPICE + ISO 26262 / Atom specifics) with context routing — RAG-adjacent without vector search.",
-          "Structured output (Pydantic) → guaranteed valid DSL; syntax and domain-rule validation at every step.",
-          "Measured impact: SSTS PDF→model conversion 16h → 10min (×96); full traceability report 6h → 2min (×180).",
+          "Structured output on Pydantic gives a guaranteed valid DSL; syntax and domain rules are checked at every step.",
+          "Measured impact: SSTS PDF to model — 16h vs 10min (×96); full traceability report — 6h vs 2min (×180).",
           "Defended as a thesis (UrFU, 2026), with a deployment act at KAMA.",
         ],
         stack: ["Claude Code SDK", "Anthropic API", "Python 3.12", "Pydantic", "PlantUML", "GitLab"],
