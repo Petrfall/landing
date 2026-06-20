@@ -13,9 +13,9 @@ export const en: Content = {
     name: "Ilya Petrov",
     role: "I build production LLM agents for domain tasks",
     tagline:
-      "I take a raw source — PDF up to 700 pages, JSON, ARXML, Excel — and turn it into a valid formal model and docs. The work runs through chains of LLM skills: each step returns structured output and passes validation.",
+      "I build LLM agents that turn sprawling engineering documentation into machine-readable models — so the team can trust the result instead of re-reading hundreds of pages of specs.",
     intro:
-      "At my main job I designed and maintain a library of 20 LLM skills on Claude Code SDK / Anthropic API, deployed to the engineering team at KAMA (Atom EV).",
+      "At KAMA (Atom EV), my skills take on a systems architect's routine every day — from parsing specifications to formal models and docs. Behind it: deliberate prompt engineering, strict validation, and a human in the loop at every step.",
     ctaPrimary: "See projects →",
     ctaSecondary: "GitHub",
     metrics: [
