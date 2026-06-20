@@ -16,7 +16,7 @@ export const en: Content = {
       "From a raw source (PDF up to 700 pages, JSON, ARXML, Excel) to a valid formal model and docs — via chains of LLM skills with structured output and validation at every step.",
     intro:
       "At my main job I designed and maintain a library of 20 LLM skills on Claude Code SDK / Anthropic API, deployed to the engineering team at KAMA (Atom EV).",
-    ctaPrimary: "Supplier search →",
+    ctaPrimary: "See projects →",
     ctaSecondary: "GitHub",
     metrics: [
       { value: "20", label: "LLM skills in production" },
@@ -162,18 +162,6 @@ export const en: Content = {
         ],
         stack: ["Python 3.12", "FastAPI", "SQLite", "Redis", "React + TS", "Docker"],
         links: [{ label: "GitHub", href: "https://github.com/Petrfall/resume-scorer" }],
-      },
-      {
-        name: "Food supplier search",
-        tag: "Test task Part 2 · in progress",
-        summary:
-          "A service to find and compare food suppliers: web search + LLM extraction into a strict schema (MOQ, prices, certificates, contacts), 'who to contact' ranking.",
-        bullets: [
-          "Same production pattern: structured ETL + provider abstraction + caching.",
-          "Source attribution per field — data transparency.",
-          "Demonstrates applied AI engineering on a new domain task.",
-        ],
-        stack: ["FastAPI", "SQLite", "React + TS", "Anthropic API"],
       },
       {
         name: "RAG over docs · FastAPI proxy · local LLMs",

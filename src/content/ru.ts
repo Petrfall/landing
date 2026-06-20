@@ -16,7 +16,7 @@ export const ru: Content = {
       "Прохожу путь от сырого источника (PDF до 700 стр., JSON, ARXML, Excel) до валидной формальной модели и документации — через цепочки LLM-скиллов со structured output и валидацией на каждом шаге.",
     intro:
       "На основной работе спроектировал и поддерживаю библиотеку из 20 LLM-скиллов на Claude Code SDK / Anthropic API, внедрённую в инженерную команду АО «КАМА» (электромобиль «Атом»).",
-    ctaPrimary: "Поиск поставщиков →",
+    ctaPrimary: "Смотреть проекты →",
     ctaSecondary: "GitHub",
     metrics: [
       { value: "20", label: "LLM-скиллов в production" },
@@ -162,18 +162,6 @@ export const ru: Content = {
         ],
         stack: ["Python 3.12", "FastAPI", "SQLite", "Redis", "React + TS", "Docker"],
         links: [{ label: "GitHub", href: "https://github.com/Petrfall/resume-scorer" }],
-      },
-      {
-        name: "Поиск поставщиков продуктов питания",
-        tag: "Часть 2 тестового · в работе",
-        summary:
-          "Сервис поиска и сравнения food-поставщиков: web-поиск + LLM-извлечение в строгую схему (MOQ, цены, сертификаты, контакты), ранжирование «с кем связаться».",
-        bullets: [
-          "Тот же production-паттерн: structured ETL + provider-абстракция + кэш.",
-          "Source-attribution на каждое поле — прозрачность данных.",
-          "Демонстрирует прикладной AI-инжиниринг на новой доменной задаче.",
-        ],
-        stack: ["FastAPI", "SQLite", "React + TS", "Anthropic API"],
       },
       {
         name: "RAG над методичкой · FastAPI-прокси · локальные LLM",
